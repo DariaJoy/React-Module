@@ -8,7 +8,7 @@ function CardProduct ({url, card__title, card__description, card__value, card__v
             <h2 className="card__title">{card__title}</h2>
             <p className="card__description">{card__description}</p>
             <div className="card__nav">
-                <p className="card__value">{card__value} <span>{card__valueSpan}</span></p>
+                <p className="card__value">{card__value} ₽ <span>{card__valueSpan}</span></p>
                 <button className="card__add"></button>
             </div>
             </div>
