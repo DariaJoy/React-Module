@@ -1,7 +1,11 @@
 const products = [
     {
         id: 1,
+<<<<<<< HEAD
         url: "React-Module/assets/card1.png",
+=======
+        url: "/assets/card1.png",
+>>>>>>> homework-03
         card__title: "Устрицы по рокфеллеровски",
         card__description:"Значимость этих проблем настолько очевидна, что укрепление и развитие структуры",
         card__value: 2700,
@@ -10,7 +14,11 @@ const products = [
     },
     {
         id: 2,
+<<<<<<< HEAD
         url: "React-Module/assets/card2.png",
+=======
+        url: "/assets/card2.png",
+>>>>>>> homework-03
         card__title: "Свиные ребрышки на гриле с зеленью",
         card__description:"Не следует, однако забывать, что реализация намеченных плановых",
         card__value: 1600,
@@ -19,7 +27,11 @@ const products = [
     },
     {
         id: 3,
+<<<<<<< HEAD
         url: "React-Module/assets/card3.png",
+=======
+        url: "/assets/card3.png",
+>>>>>>> homework-03
         card__title: "Креветки по-королевски в лимонном соке",
         card__description:"Значимость этих проблем настолько очевидна, что укрепление и развитие структуры",
         card__value: 1820,
@@ -28,7 +40,11 @@ const products = [
     },
     {
         id: 4,
+<<<<<<< HEAD
         url: "React-Module/assets/card1.png",
+=======
+        url: "/assets/card1.png",
+>>>>>>> homework-03
         card__title: "Устрицы по рокфеллеровски",
         card__description:"Значимость этих проблем настолько очевидна, что укрепление и развитие структуры",
         card__value: 2700,
@@ -37,7 +53,11 @@ const products = [
     },
     {
         id: 5,
+<<<<<<< HEAD
         url: "React-Module/assets/card1.png",
+=======
+        url: "/assets/card1.png",
+>>>>>>> homework-03
         card__title: "Устрицы по рокфеллеровски",
         card__description:"Значимость этих проблем настолько очевидна, что укрепление и развитие структуры",
         card__value: 2700,
@@ -46,7 +66,11 @@ const products = [
     },
     {
         id: 6,
+<<<<<<< HEAD
         url: "React-Module/assets/card2.png",
+=======
+        url: "/assets/card2.png",
+>>>>>>> homework-03
         card__title: "Свиные ребрышки на гриле с зеленью",
         card__description:"Не следует, однако забывать, что реализация намеченных плановых",
         card__value: 1600,
@@ -55,7 +79,11 @@ const products = [
     },
     {
         id: 7,
+<<<<<<< HEAD
         url: "React-Module/assets/card3.png",
+=======
+        url: "/assets/card3.png",
+>>>>>>> homework-03
         card__title: "Креветки по-королевски в лимонном соке",
         card__description:"Значимость этих проблем настолько очевидна, что укрепление и развитие структуры",
         card__value: 1820,
@@ -63,7 +91,11 @@ const products = [
     },
     {
         id: 8,
+<<<<<<< HEAD
         url: "React-Module/assets/card1.png",
+=======
+        url: "/assets/card1.png",
+>>>>>>> homework-03
         card__title: "Устрицы по рокфеллеровски",
         card__description:"Значимость этих проблем настолько очевидна, что укрепление и развитие структуры",
         card__value: 2700,
