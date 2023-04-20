@@ -3,9 +3,10 @@
     flex-direction : column;
     justify-content: space-between;
     flex-wrap      : nowrap;
-    width          : 90vw;
+    width          : 1440px;
     height         : 100vh;
-    margin         : 54px 70px;
+    padding        : 54px 70px;
+    margin         : 0 auto;
 }
 
 .wrapper__products {
