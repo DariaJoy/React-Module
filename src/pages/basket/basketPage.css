@@ -1,0 +1,15 @@
+.basket__wrapper {
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-between;
+    flex-wrap      : nowrap;
+    width          : 860px;
+    height         : 80%;
+    padding        : 54px 0px;
+    margin         : 0 auto;
+}
+
+.basket__wrapperItems {
+    display       : flex;
+    flex-direction: column;
+}
