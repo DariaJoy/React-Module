@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/React-Module/static/css/main.3a3b953d.css",
-    "main.js": "/React-Module/static/js/main.7e4b3fd0.js",
+    "main.css": "/React-Module/static/css/main.bbab33e8.css",
+    "main.js": "/React-Module/static/js/main.fed25e7f.js",
     "static/js/787.28cb0dcd.chunk.js": "/React-Module/static/js/787.28cb0dcd.chunk.js",
     "static/media/cartSvg.svg": "/React-Module/static/media/cartSvg.b133d7964b9e1b0083e3.svg",
+    "static/media/cancel.svg": "/React-Module/static/media/cancel.9ea209e74e7a0468535c.svg",
+    "static/media/left-arrow.svg": "/React-Module/static/media/left-arrow.4a9325bac3eec11c2809.svg",
     "index.html": "/React-Module/index.html",
     "static/media/plus.svg": "/React-Module/static/media/plus.d2c0730fbb4194953d15.svg",
-    "main.3a3b953d.css.map": "/React-Module/static/css/main.3a3b953d.css.map",
-    "main.7e4b3fd0.js.map": "/React-Module/static/js/main.7e4b3fd0.js.map",
+    "main.bbab33e8.css.map": "/React-Module/static/css/main.bbab33e8.css.map",
+    "main.fed25e7f.js.map": "/React-Module/static/js/main.fed25e7f.js.map",
     "787.28cb0dcd.chunk.js.map": "/React-Module/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a3b953d.css",
-    "static/js/main.7e4b3fd0.js"
+    "static/css/main.bbab33e8.css",
+    "static/js/main.fed25e7f.js"
   ]
 }
