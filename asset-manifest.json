@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/React-Module/static/css/main.bbab33e8.css",
-    "main.js": "/React-Module/static/js/main.fed25e7f.js",
+    "main.css": "/React-Module/static/css/main.e57fb88b.css",
+    "main.js": "/React-Module/static/js/main.9dc603d5.js",
     "static/js/787.28cb0dcd.chunk.js": "/React-Module/static/js/787.28cb0dcd.chunk.js",
-    "static/media/cartSvg.svg": "/React-Module/static/media/cartSvg.b133d7964b9e1b0083e3.svg",
     "static/media/cancel.svg": "/React-Module/static/media/cancel.9ea209e74e7a0468535c.svg",
+    "static/media/cancelWhite.svg": "/React-Module/static/media/cancelWhite.817c7a1dd57369d2a715.svg",
     "static/media/left-arrow.svg": "/React-Module/static/media/left-arrow.4a9325bac3eec11c2809.svg",
+    "static/media/left-arrowWhite.svg": "/React-Module/static/media/left-arrowWhite.cd29fe0665cbc9db594d.svg",
     "index.html": "/React-Module/index.html",
-    "static/media/plus.svg": "/React-Module/static/media/plus.d2c0730fbb4194953d15.svg",
-    "main.bbab33e8.css.map": "/React-Module/static/css/main.bbab33e8.css.map",
-    "main.fed25e7f.js.map": "/React-Module/static/js/main.fed25e7f.js.map",
+    "main.e57fb88b.css.map": "/React-Module/static/css/main.e57fb88b.css.map",
+    "main.9dc603d5.js.map": "/React-Module/static/js/main.9dc603d5.js.map",
     "787.28cb0dcd.chunk.js.map": "/React-Module/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbab33e8.css",
-    "static/js/main.fed25e7f.js"
+    "static/css/main.e57fb88b.css",
+    "static/js/main.9dc603d5.js"
   ]
 }
