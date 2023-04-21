@@ -26,10 +26,7 @@
     background-size    : 70%;
     background-position: center;
     background-repeat  : no-repeat;
-}
-
-.header__btn:hover {
-    cursor: pointer;
+    cursor             : pointer;
 }
 
 .header__cartInfo {
