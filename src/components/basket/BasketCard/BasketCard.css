@@ -56,3 +56,9 @@
     background-repeat  : no-repeat;
     cursor             : pointer;
 }
+
+.basket__cardRemove:hover {
+    background-color: #D58C51;
+    border          : none;
+    background-image: url('../../../../public/assets/cancelWhite.svg');
+}
