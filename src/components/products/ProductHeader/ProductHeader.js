@@ -4,7 +4,8 @@ import { useNavigate } from "react-router-dom";
 
 import './ProductHeader.css';
 
-function ProductHeader () {
+function ProductHeader ({amountPrice}) {
+    
     let navigate = useNavigate();
 
     const onCartButtonClickHandler = () => {
@@ -15,7 +16,7 @@ function ProductHeader () {
         <header className="header__wrapper">
             <h1 className="header__title">наша продукция</h1>
             <nav>
-                <p className="header__cartInfo">В Вашей корзине товаров на 0 ₽</p>
+                <p className="header__cartInfo">В Вашей корзине товаров на {amountPrice} ₽</p>
                 <button className="header__btn" onClick={onCartButtonClickHandler}/>
             </nav>
         </header>

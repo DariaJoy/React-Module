@@ -1,12 +1,13 @@
 import React from 'react';
 import './ProductCard.css';
 
-function ProductCard ({id, url, title, description, price, weight,}) {
+function ProductCard ({id, url, title, description, price, weight, onAdd}) {
      const onAddToCartClickHandler = () => {
         const cart = JSON.parse(localStorage.getItem('cart')) || [];
         const product = {id, url, title, price}
         cart.push(product)
-        localStorage.setItem('cart', JSON.stringify(cart)) 
+        localStorage.setItem('cart', JSON.stringify(cart))
+        onAdd(); 
     }
     return(
         <section className="card">
