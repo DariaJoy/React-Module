@@ -1,11 +1,8 @@
-
-import ProductsPage from "./pages/products/productsPage.js";
+import React from "react";
 
 function App() {
   return (
-    <div className="App">
-      <ProductsPage />
-    </div>
+    <div></div>
   );
 }
 

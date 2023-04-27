@@ -1,0 +1,40 @@
+.basket__wrapperHeader {
+    display        : flex;
+    flex-direction : row;
+    justify-content: flex-start;
+    margin-bottom  : 81px;
+}
+
+.basket__titelHeader {
+    color         : #FFFFFF;
+    font-family   : 'Montserrat';
+    font-style    : normal;
+    font-weight   : 700;
+    font-size     : 31px;
+    line-height   : 38px;
+    text-transform: uppercase;
+    display       : inline-block;
+    margin-left   : 64px;
+    width         : 671px;
+    height        : 38px;
+    font-stretch  : 100%;
+}
+
+.basket__bth {
+    width              : 32px;
+    height             : 32px;
+    background-color   : transparent;
+    border             : 1px solid #D58C51;
+    border-radius      : 50%;
+    background-image   : url("../../../../public/assets/left-arrow.svg");
+    background-size    : 50%;
+    background-position: center;
+    background-repeat  : no-repeat;
+    cursor             : pointer;
+}
+
+.basket__bth:hover {
+    background-color: #D58C51;
+    background-image: url("../../../../public/assets/left-arrowWhite.svg");
+    border          : none;
+}
