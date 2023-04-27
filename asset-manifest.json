@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Module/static/css/main.ecdf8562.css",
-    "main.js": "/React-Module/static/js/main.1d3b5a81.js",
+    "main.css": "/React-Module/static/css/main.e035c22d.css",
+    "main.js": "/React-Module/static/js/main.9b431739.js",
     "static/media/cartSvg.svg": "/React-Module/static/media/cartSvg.b133d7964b9e1b0083e3.svg",
     "static/media/cancel.svg": "/React-Module/static/media/cancel.9ea209e74e7a0468535c.svg",
     "static/media/cancelWhite.svg": "/React-Module/static/media/cancelWhite.817c7a1dd57369d2a715.svg",
@@ -9,11 +9,11 @@
     "static/media/left-arrowWhite.svg": "/React-Module/static/media/left-arrowWhite.cd29fe0665cbc9db594d.svg",
     "index.html": "/React-Module/index.html",
     "static/media/plus.svg": "/React-Module/static/media/plus.d2c0730fbb4194953d15.svg",
-    "main.ecdf8562.css.map": "/React-Module/static/css/main.ecdf8562.css.map",
-    "main.1d3b5a81.js.map": "/React-Module/static/js/main.1d3b5a81.js.map"
+    "main.e035c22d.css.map": "/React-Module/static/css/main.e035c22d.css.map",
+    "main.9b431739.js.map": "/React-Module/static/js/main.9b431739.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecdf8562.css",
-    "static/js/main.1d3b5a81.js"
+    "static/css/main.e035c22d.css",
+    "static/js/main.9b431739.js"
   ]
 }
