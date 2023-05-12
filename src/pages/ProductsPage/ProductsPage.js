@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 
 import ProductHeader from '../../components/products/ProductHeader/ProductHeader';
 import ProductCard from '../../components/products/ProductCard/ProductCard';
@@ -8,23 +8,12 @@ import './ProductsPage.css'
 
 
 function ProductsPage () {
-const [amountPrice, setAmountPrice] = useState(calcAmountPrice());
-
-const onAddProductToCart = () => {
-    setAmountPrice(calcAmountPrice())
-}
-
-function calcAmountPrice() {
-    const productsPriceInCart = JSON.parse(localStorage.getItem('cart')) || [];
-    return productsPriceInCart.reduce((sum, {price}) => sum + price, 0)
-}
     
 return (
         <div className="wrapper">
            
-            <ProductHeader
-                amountPrice={amountPrice}/>
-    
+            <ProductHeader/>
+
             <main className="wrapper__products">
                 {products.map(item => {
                     return (
@@ -35,8 +24,7 @@ return (
                             title={item.title}
                             description={item.description}
                             price={item.price}
-                            weight={item.weight}
-                            onAdd={onAddProductToCart}/>
+                            weight={item.weight}/>
                     )
                 })}
             </main>
