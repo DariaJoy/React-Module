@@ -1,9 +1,12 @@
 import React from 'react';
+
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
+import { addToCartList, removeFromCartList } from '../../../store/reducers/products';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXmark, faPlus } from '@fortawesome/free-solid-svg-icons'
-import { add, remove } from '../../../store/reducers/products';
+
 import './ProductCard.css';
 
 function ProductCard ({id, url, title, description, price, weight}) {
@@ -11,12 +14,12 @@ function ProductCard ({id, url, title, description, price, weight}) {
     const [isAdded, setAddState] = useState(false);
 
     const addToRedux = () => {
-        dispatch(add ({ id, title, price }));
+        dispatch(addToCartList ({ id, title, price, url }));
         setAddState (prevState => !prevState );
     }
 
     const removeFromRedux = () => {
-        dispatch(remove ({ id }));
+        dispatch(removeFromCartList ({ id }));
         setAddState (prevState => !prevState );
     }
 

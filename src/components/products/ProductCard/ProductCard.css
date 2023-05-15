@@ -64,15 +64,11 @@
 }
 
 .card__add {
-    width              : 30px;
-    height             : 30px;
-    border-radius      : 50%;
-    background-color   : transparent;
-    border             : 1px solid #FFFFFF;
-    background-image   : url('../../../../public/assets/plus.svg');
-    background-size    : 70%;
-    background-position: center;
-    background-repeat  : no-repeat;
+    width           : 30px;
+    height          : 30px;
+    border-radius   : 50%;
+    background-color: transparent;
+    border          : 1px solid #FFFFFF;
 }
 
 .card__add:hover {
