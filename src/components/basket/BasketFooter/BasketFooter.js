@@ -1,8 +1,13 @@
 import React from 'react';
 
+import { useSelector} from 'react-redux';
+
 import './BasketFooter.css'
 
-function BasketFooter ({amountPrice}) {
+function BasketFooter () {
+    
+    const amountPrice = useSelector(({productSlice}) => productSlice.amountPrice);
+    
     return (
         <footer className="basket__footer">
             <div className="basket__footerWrapper">
